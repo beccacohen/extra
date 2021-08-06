@@ -1,0 +1,40 @@
+/*============================
+
+Universal Styling
+
+============================*/
+
+.container {
+  font-family: 'Raleway', sans-serif;
+  padding: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #234058;
+}
+
+img {
+  width: 295px;
+}
+
+/*============================
+
+Home page Styling
+
+============================*/
+
+.logo {
+  margin: 0 26%;
+  animation-name: fly;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s
+}
+
+@keyframes fly {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(150px);
+  }
+}
